@@ -9,12 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var textFieldTitle: UITextField!
+    @IBOutlet weak var textFieldContent: UITextField!
+    @IBOutlet weak var datePicker: UIDatePicker!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
     }
 
-
+    
+    @IBAction func didClickButton(_ sender: UIButton) {
+    }
+    
 }
 
