@@ -8,6 +8,8 @@
 
 
 //アプリ全体のことを書いてるファイル
+
+//アプリ自体が起動したときとか、アプリが後ろに隠れてるとき、もう一度表示されたときとか
 //そんなにここを修正することはない
 import UIKit
 //追加
@@ -21,6 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     var window: UIWindow?
 
 
+//   func application  アプリが起動した時に実行
+//   通知の許可を確認する
+    
 //    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 //        // Override point for customization after application launch.
 //        return true
